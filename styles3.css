@@ -1,0 +1,192 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+	background-color: #f4f4f4
+	color: #555;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+#main-header{
+	background-image: linear-gradient(45deg, #ce9ffc, #7367f0);
+	color: #fff;
+	padding: 12vw;
+}
+#tip-title{
+  font-size:3.5vw;
+  padding-bottom: 1vw;
+  padding-top: 2vw;
+  min-height: 8vh;
+}
+#pic-img{
+  height:20vw;
+  width:19.15vw;
+  display: inline-block;
+  max-width:100%;
+}
+#top-title{
+  text-transform:capitalize;
+  line-height:normal;
+  text-align:right;
+}
+#header-titles{
+  text-align: center;
+}
+
+#fadeIn {
+  margin-top: 25px;
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#navbar{
+  position: absolute;
+  top:3vw;
+  right:0vw;
+  left:30vw;
+  text-align: right;
+}
+nav ul{
+  padding-left: 0vw;
+  list-style: none;
+}
+#navbar li{
+  display: inline;
+}
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding-right: 2.2vw;
+}
+#navbar a:hover{
+  color: darksalmon;
+}
+#showcase{
+	background-image: url('./images/pattern.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 80vw;
+  box-shadow: 0vw -0.4vw 0.4vw rgba(34,34,34,0.6);
+  padding-bottom: 10vh;
+}
+
+#sidebar1{
+  float:left;
+  width:50%;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 6vh;
+  color:#fff;
+  font:  bold 2vw 'Poppins', sans-serif;
+  text-shadow: 0.2vw 0.1vw #333;
+}
+
+#sidebar2{
+  float:right;
+  width:50%;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 6vh;
+  color:#fff;
+  font:  bold 2vw 'Poppins', sans-serif;
+  text-shadow: 0.2vw 0.1vw #333;  
+}
+
+.progress {
+  width: 80%;
+  background-color: #ddd;
+  border-radius:10px;
+  box-shadow: 0px -0.4vw 0.4vw rgba(34,34,34,0.6);
+}
+
+.skills {
+  text-align: right;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
+  color: white;
+  border-radius:1vw;
+}
+
+.mainPad{
+  padding-top: 14vw;
+  padding-left: 4vw;
+  padding-bottom: 50vw;
+}
+
+.pad{
+  padding-bottom: 8vw;
+}
+
+.html {width: 75%; min-height:2vh;  background-color: #04AA6D;}
+.css {width: 65%;min-height:2vh; background-color: #2196F3;}
+.js {width: 65%;min-height:2vh; background-color: #f44336;}
+.php {width: 60%;min-height:2vh; background-color: #ffd600;}
+.c {width: 80%;min-height:2vh; background-color: #04AA6D;}
+.cplus {width: 80%;min-height:2vh; background-color: #2196F3;}
+.java {width: 65%;min-height:2vh; background-color: #f44336;}
+.python {width: 75%;min-height:2vh; background-color: #ffd600;}
+
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+  padding: 2vw;
+  min-height: 30vh;
+	
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 5vh;
+}
+
+/* Add a hover to icons */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube-play {
+  background: red;
+  color: white;
+}
